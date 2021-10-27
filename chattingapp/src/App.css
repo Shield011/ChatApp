@@ -1,16 +1,16 @@
 .App{
   display: grid;
   place-items: center;
-  background-color: aqua;
+  background-color: rgb(233, 233, 233);
   height: 100vh;
 }
 
 .App_body{
   display: flex;
-  background-color: rgb(250, 179, 93);
+  background-color: #FCB5AC;
   margin-top: -50px;
   height: 90vh;
   width: 90vw;
-  box-shadow: -1px 4px 20px -8px rgb(190, 82, 39);
+  box-shadow: -1px 2px 20px -8px rgb(95, 95, 95);
 
 }

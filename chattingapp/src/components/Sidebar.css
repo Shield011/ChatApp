@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    border: 1px solid black;
+    border: 1px solid #fcada2;
 
 }
 
@@ -23,3 +23,44 @@
     font-size: 24px !important;
 }
 
+
+.sidebar_search {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 10px;
+    background-color:#fad3ce;
+    border-bottom:1px solid #fcada2;
+}
+
+.sidebar_searchContainer{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+
+
+}
+
+.sidebar_searchContainer > input {
+    border: none;
+    margin-left: 10px;
+}
+
+.searchIcon {
+    color: black;
+    padding: 10px;
+}
+.sidebar_chats{
+    flex: 1;
+    background-color: #fad3ce;
+    overflow: scroll;
+    
+
+}
+
+.sidebar_chats::-webkit-scrollbar {
+    display: none;
+}
