@@ -3,6 +3,7 @@
   place-items: center;
   background-color: rgb(233, 233, 233);
   height: 100vh;
+  border-left: 50px black; 
 }
 
 .App_body{

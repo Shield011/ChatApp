@@ -2,12 +2,15 @@
     display : flex;
     flex-direction: column;
     flex: 0.35;
+   
 }
+
 .sidebar_header{
     display: flex;
     justify-content: space-between;
     padding: 20px;
     border: 1px solid #fcada2;
+   
 
 }
 
