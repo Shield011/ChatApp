@@ -3,6 +3,9 @@ import './SidebarChat.css';
 import {MdAccountCircle} from 'react-icons/md';
 import db from "../Firebase"
 import { Link } from 'react-router-dom';
+import AddCircleIcon from '@mui/icons-material/AddCircle';
+import { IconButton } from '@mui/material';
+
 
 function SidebarChat({id, name,addNewChat}) {
 
@@ -42,8 +45,12 @@ function SidebarChat({id, name,addNewChat}) {
         
         
     ) : (
+        
         <div onClick = {createChat}
         className = "sidebarChat">
+        {/* <IconButton>
+             <AddCircleIcon />
+        </IconButton> */}
         <h2> Add new chat </h2>
         </div>
     )

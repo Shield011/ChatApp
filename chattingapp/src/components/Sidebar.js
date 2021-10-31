@@ -10,7 +10,7 @@ import './Sidebar.css'
 import SidebarChat from './SidebarChat';
 import db from '../Firebase';
 import { useStateValue } from '../StateProvider';
-
+import AddCircleIcon from '@mui/icons-material/AddCircle';
 
 function Sidebar() {
     const [rooms, setRooms] = useState([]);
@@ -62,6 +62,9 @@ function Sidebar() {
                {rooms.map(room => (
                    <SidebarChat key ={room.id} id = {room.id} name = {room.data.name} />
                ))}
+               <IconButton>
+                <AddCircleIcon />
+               </IconButton>
             </div>
     
         </div>

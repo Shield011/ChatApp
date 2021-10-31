@@ -1,6 +1,6 @@
 .chat{
-    flex : 0.65;
-    background-color: #B99095;
+    flex : 0.7;
+    background-color: #f7aa53;
     display: flex;
     flex-direction: column;
 
@@ -10,7 +10,7 @@
     padding: 20px;
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #b98b91;
+    border-bottom: 1px solid #f3b670;
 }
 
 .chat_headerInfo{
@@ -37,9 +37,12 @@
 
 .chat_body{
     flex: 1;
-    background-image: url("../assets/leaf.jpg");
+    background-image: url("../assets/chatBackground3_opaque.png");
     background-repeat: repeat;
-    background-position: fit;
+    background-position: center;
+    background-color: white;
+    /* background-size: cover; */
+    /* background-color: rgb(255, 255, 255); */
     padding: 30px;
     overflow: scroll;
 
@@ -53,7 +56,7 @@
     position: relative;
     font-size: 16px;
     padding: 10px;
-    background-color:#EEEDE7;
+    background-color:#cdf3ed;
     border-radius: 10px;
     width: fit-content;
     margin-bottom: 30px;
@@ -75,7 +78,7 @@
 
 .chat_receiver{
     margin-left: auto;
-    background-color: #868B8E;
+    background-color: #72bbb0;
 }
 
 .chat_footer{
@@ -83,8 +86,8 @@
     justify-content: space-between;
     align-items: center;
     height: 62px;
-    border-top: 1px solid #b98b91;
-    background-color: #B99095;
+    border-top: 1px solid #f3b670;
+    background-color: #f7aa53;
 
 
 }
@@ -98,8 +101,13 @@
     flex: 1;
     border-radius: 30px;
     padding: 10px;
+    padding-left: 20px;
     border: none;
     margin-left: 4px;
+}
+
+.chat_footer > form > input:focus {
+    outline: none;
 }
 
 .chat_footer > form > button {

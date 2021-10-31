@@ -1,17 +1,21 @@
 .App{
   display: grid;
   place-items: center;
-  background-color: rgb(233, 233, 233);
+  background-image: url("./assets/mainbackground3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: content;
   height: 100vh;
-  border-left: 50px black; 
+  
 }
 
 .App_body{
   display: flex;
   background-color: #FCB5AC;
-  margin-top: -50px;
-  height: 90vh;
+  margin-top: 0px;
+  height: 95vh;
   width: 90vw;
-  box-shadow: -1px 2px 20px -8px rgb(95, 95, 95);
+  box-shadow: -2px 4px 18px -5px rgb(95, 95, 95);
+  border-radius: 50px;
 
 }

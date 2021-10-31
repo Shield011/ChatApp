@@ -57,9 +57,7 @@ function Chat() {
           <IconButton>
             <SearchIcon />
           </IconButton>
-          <IconButton>
-            <AttachFileIcon />
-          </IconButton>
+        
           <IconButton>
             <MoreVertIcon />
           </IconButton>
@@ -90,6 +88,9 @@ function Chat() {
             <SendIcon />
           </IconButton>
         </form>
+        <IconButton>
+            <AttachFileIcon />
+          </IconButton>
         <IconButton>
           <MicIcon />
         </IconButton>
